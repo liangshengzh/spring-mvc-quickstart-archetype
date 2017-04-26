@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 @RequestMapping("/healcheck")
-public class HelloController {
+public class HealthCheckController {
 
   @RequestMapping(method = RequestMethod.GET)
   @ResponseBody
